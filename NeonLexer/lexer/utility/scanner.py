@@ -18,9 +18,7 @@ class Scanner:
     def getIdentifier(self, current):
         pattern_matcher = re.compile(tokenRegex.permitted_identifier)
         while self.s.peekFirstCharacterInStream() and pattern_matcher.match(self.s.peekFirstCharacterInStream()):
-            if not pattern_matcher.match(symbol := self.s.popFirstFromStream()):
-                raise Exception("Invalid Identifier!")
-            current = current + symbol
+            current = current + self.s.popFirstFromStream()
         if current in keywords:
             return "reserved", current
         return "identifier", current
