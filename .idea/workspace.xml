@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cd4e7ff6-03e4-4394-a9ec-59434352435d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeonLexer/lexer/lexer/lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeonLexer/lexer/lexer/lexer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeonLexer/lexer/tokens/reserved_keywords.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeonLexer/lexer/tokens/reserved_keywords.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeonParser/parser/parser/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeonParser/parser/parser/parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmdrunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmdrunner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neonrunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/neonrunner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/lexer/lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/lexer/lexer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,16 +142,16 @@
     <list>
       <item itemvalue="Python.cmdrunner" />
       <item itemvalue="Python.lexer" />
-      <item itemvalue="Python tests.Unittests for lexer.TestLexicalAnalysis" />
       <item itemvalue="Python.ScannerTest" />
+      <item itemvalue="Python tests.Unittests for lexer.TestLexicalAnalysis" />
       <item itemvalue="Python tests.Unittests in tests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in tests" />
+        <item itemvalue="Python tests.Unittests for lexer.TestLexicalAnalysis" />
         <item itemvalue="Python.ScannerTest" />
-        <item itemvalue="Python tests.Unittests for lexer.TestLexicalAnalysis" />
         <item itemvalue="Python.lexer" />
-        <item itemvalue="Python tests.Unittests for lexer.TestLexicalAnalysis" />
         <item itemvalue="Python tests.Unittests in tests" />
       </list>
     </recent_temporary>
@@ -172,6 +165,14 @@
       <option name="presentableId" value="Default" />
       <updated>1602190228822</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1605127388526</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605127388526</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -183,6 +184,10 @@
         <option value="1" />
       </list>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604791246881">
@@ -241,6 +246,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="390" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604794657043" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605127633708">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605127633708" />
     <state x="331" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604791287598">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
