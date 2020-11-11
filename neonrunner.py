@@ -1,6 +1,9 @@
-import sys
-from NeonLexer.lang.utility.filecharreader import fileCharReader
-from NeonLexer.lang.lexer.lexer import NeonLexer
+from NeonParser.parser.parser.parser import NeonParser
 
-lexer = NeonLexer()
-print(*lexer(fileCharReader(sys.argv[1])), sep="\n")
+class NeonRunner:
+    def __init__(self, source):
+        self.parser = NeonParser()
+        self.source = source
+
+    def __call__(self):
+        return self.parser(self.source)

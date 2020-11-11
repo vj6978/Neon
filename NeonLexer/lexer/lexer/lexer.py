@@ -1,8 +1,8 @@
 import re
-from NeonLexer.lang.stream.stream import Stream
-from NeonLexer.lang.utility.scanner import Scanner
-from NeonLexer.lang.tokens import tokens
-from NeonLexer.lang.tokenRegex.tokenRegex import permitted_number, permitted_identifier
+from NeonLexer.lexer.stream.stream import Stream
+from NeonLexer.lexer.utility.scanner import Scanner
+from NeonLexer.lexer.tokens import tokens
+from NeonLexer.lexer.tokenRegex.tokenRegex import permitted_number, permitted_identifier
 
 class NeonLexer:
     def __call__(self, fileCharReader):

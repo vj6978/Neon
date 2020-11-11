@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd4e7ff6-03e4-4394-a9ec-59434352435d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Cargo/Contract/DriverContract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cargo/Contract/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cargo/Simulation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cargo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cargo/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cargo/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cargo/utility.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Olive/app/src/main/java/com/example/olive/Splash/SplashActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Olive/app/src/main/res/layout/splash_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeonLexer/lexer/lexer/lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeonLexer/lexer/lexer/lexer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeonLexer/lexer/tokens/reserved_keywords.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeonLexer/lexer/tokens/reserved_keywords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeonParser/parser/parser/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeonParser/parser/parser/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmdrunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmdrunner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neonrunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/neonrunner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/lexer/lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/lexer/lexer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,25 +24,58 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ibxjeLdYgFkRig4PRGa2q7ICZC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/NeonLexer/cmdrunner.py" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vimal James\Desktop\Code\Neon\tests\lexer" />
+      <recent name="C:\Users\Vimal James\Desktop\Code\Neon\NeonParser\parser\parser" />
+      <recent name="C:\Users\Vimal James\Desktop\Code\Neon" />
       <recent name="C:\Users\Vimal James\Desktop\Code\Neon\lang\lexer" />
     </key>
   </component>
   <component name="RunManager" selected="Python.cmdrunner">
+    <configuration name="ScannerTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Neon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NeonLexer/test/Scanner" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NeonLexer/test/Scanner/ScannerTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="cmdrunner" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Neon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,8 +88,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NeonLexer/cmdrunner.py" />
-      <option name="PARAMETERS" value="input.txt" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cmdrunner.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -86,13 +118,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for lexer.TestLexicalAnalysis" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Neon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/lexer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;lexer.TestLexicalAnalysis&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in tests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Neon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.cmdrunner" />
       <item itemvalue="Python.lexer" />
+      <item itemvalue="Python tests.Unittests for lexer.TestLexicalAnalysis" />
+      <item itemvalue="Python.ScannerTest" />
+      <item itemvalue="Python tests.Unittests in tests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ScannerTest" />
+        <item itemvalue="Python tests.Unittests for lexer.TestLexicalAnalysis" />
         <item itemvalue="Python.lexer" />
+        <item itemvalue="Python tests.Unittests for lexer.TestLexicalAnalysis" />
+        <item itemvalue="Python tests.Unittests in tests" />
       </list>
     </recent_temporary>
   </component>
@@ -118,85 +185,102 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604413095898">
+    <state x="223" y="67" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604791246881">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604413095898" />
+    <state x="223" y="67" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604791246881" />
     <state x="521" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604336681503">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="521" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1604336681503" />
-    <state x="548" y="117" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1602195685981">
+    <state x="548" y="117" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1604790742403">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="117" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824@0.0.1536.824" timestamp="1602195685981" />
-    <state x="866" y="170" key="#xdebugger.evaluate" timestamp="1604417851755">
+    <state x="548" y="117" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824@0.0.1536.824" timestamp="1604790742403" />
+    <state x="866" y="170" key="#xdebugger.evaluate" timestamp="1604794589832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="866" y="170" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1604417851755" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1604413018210">
+    <state x="866" y="170" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1604794589832" />
+    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1605127284835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604413018210" />
-    <state width="1515" height="236" key="GridCell.Tab.0.bottom" timestamp="1604417966264">
+    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1605127284835" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1604583264929">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="236" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604417966264" />
-    <state width="1515" height="236" key="GridCell.Tab.0.center" timestamp="1604417966264">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604583264929" />
+    <state width="757" height="282" key="GridCell.Tab.0.bottom" timestamp="1605127301880">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="236" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604417966264" />
-    <state width="1515" height="236" key="GridCell.Tab.0.left" timestamp="1604417966264">
+    <state width="757" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605127301880" />
+    <state width="757" height="282" key="GridCell.Tab.0.center" timestamp="1605127301879">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="236" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604417966264" />
-    <state width="1515" height="236" key="GridCell.Tab.0.right" timestamp="1604417966264">
+    <state width="757" height="282" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605127301879" />
+    <state width="757" height="282" key="GridCell.Tab.0.left" timestamp="1605127301879">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="236" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604417966264" />
-    <state width="1515" height="289" key="GridCell.Tab.1.bottom" timestamp="1604417923555">
+    <state width="757" height="282" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605127301879" />
+    <state width="757" height="282" key="GridCell.Tab.0.right" timestamp="1605127301880">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="289" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604417923555" />
-    <state width="1515" height="289" key="GridCell.Tab.1.center" timestamp="1604417923555">
+    <state width="757" height="282" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605127301880" />
+    <state width="1515" height="390" key="GridCell.Tab.1.bottom" timestamp="1604794657043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="289" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604417923555" />
-    <state width="1515" height="289" key="GridCell.Tab.1.left" timestamp="1604417923555">
+    <state width="1515" height="390" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604794657043" />
+    <state width="1515" height="390" key="GridCell.Tab.1.center" timestamp="1604794657042">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="289" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604417923555" />
-    <state width="1515" height="289" key="GridCell.Tab.1.right" timestamp="1604417923555">
+    <state width="1515" height="390" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604794657042" />
+    <state width="1515" height="390" key="GridCell.Tab.1.left" timestamp="1604794657042">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="289" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604417923555" />
+    <state width="1515" height="390" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604794657042" />
+    <state width="1515" height="390" key="GridCell.Tab.1.right" timestamp="1604794657043">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="390" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604794657043" />
+    <state x="331" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604791287598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="331" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1604791287598" />
+    <state x="0" y="0" width="1141" height="501" key="dock-window-1" timestamp="1604843796518">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" width="1141" height="501" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1604843796518" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lang/lexer/lexer.py</url>
           <line>9</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lang/stream/stream.py</url>
           <line>8</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lang/stream/stream.py</url>
           <line>19</line>
           <option name="timeStamp" value="103" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lang/lexer/lexer.py</url>
           <line>24</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NeonLexer/lexer/utility/filecharreader.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/NeonLexer/lang/utility/scanner.py</url>
-          <line>28</line>
+          <url>file://$PROJECT_DIR$/NeonLexer/lexer/utility/scanner.py</url>
+          <line>26</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
       </breakpoints>

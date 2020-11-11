@@ -1,15 +1,10 @@
-function getDifference(x, y) returns int
+x = 5 + 10;
+
+if x matches 15
 {
-    if x > y
-    {
-        return x - y;
-    }
-    elif x < y
-    {
-        return y - x;
-    }
-    else
-    {
-        return 0;
-    }
+    print x;
+}
+else
+{
+    print x + 10;
 }
