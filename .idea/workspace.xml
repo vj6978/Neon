@@ -47,7 +47,7 @@
       <recent name="C:\Users\Vimal James\Desktop\Code\Neon\lang\lexer" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cmdrunner">
+  <component name="RunManager" selected="Python tests.Unittests for lexer.TestLexicalAnalysis">
     <configuration name="ScannerTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Neon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,10 +148,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in tests" />
         <item itemvalue="Python tests.Unittests for lexer.TestLexicalAnalysis" />
-        <item itemvalue="Python.ScannerTest" />
-        <item itemvalue="Python.lexer" />
+        <item itemvalue="Python tests.Unittests for lexer.TestLexicalAnalysis.test_lexicalAnalysis" />
+        <item itemvalue="Python tests.Unittests in lexer.py" />
         <item itemvalue="Python tests.Unittests in tests" />
       </list>
     </recent_temporary>
