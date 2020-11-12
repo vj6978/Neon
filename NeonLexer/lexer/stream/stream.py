@@ -18,6 +18,7 @@ class Stream:
     def fillStreamProtocol(self):
         try:
             while character := next(self.iterator):
+                self.stream.append(character)
                 if character == ';':
                     break
                 elif character == '{':
@@ -28,7 +29,6 @@ class Stream:
                     self.simpleBracketStack.append(character)
                 elif character == ')':
                     self.simpleBracketStack.pop()
-                self.stream.append(character)
         except StopIteration:
             self.stream.append("EOF")
             if len(self.curlyBracketStack) !=0 or len(self.simpleBracketStack) != 0:
