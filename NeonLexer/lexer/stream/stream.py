@@ -2,8 +2,6 @@ class Stream:
     def __init__(self, iterator):
         self.iterator = iterator
         self.stream = []
-        self.curlyBracketStack = []
-        self.simpleBracketStack = []
         self.fillStreamProtocol()
 
     def popFirstFromStream(self):
@@ -21,15 +19,5 @@ class Stream:
                 self.stream.append(character)
                 if character == ';':
                     break
-                elif character == '{':
-                    self.curlyBracketStack.append(character)
-                elif character == '}':
-                    self.curlyBracketStack.pop()
-                elif character == '(':
-                    self.simpleBracketStack.append(character)
-                elif character == ')':
-                    self.simpleBracketStack.pop()
         except StopIteration:
             self.stream.append("EOF")
-            if len(self.curlyBracketStack) !=0 or len(self.simpleBracketStack) != 0:
-                raise Exception("Mismatched Bracket!")
