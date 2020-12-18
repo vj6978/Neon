@@ -3,6 +3,7 @@ from NeonLexer.lexer.stream.stream import Stream
 from NeonLexer.lexer.utility.scanner import Scanner
 from NeonLexer.lexer.tokens import tokens
 from NeonLexer.lexer.Exception.MismatchedBracketException import MismatchedBracketException
+from NeonLexer.lexer.Exception.UnrecognizedCharacterException import UnrecognizedCharacterException
 from NeonLexer.lexer.tokenRegex.tokenRegex import permitted_number, permitted_identifier
 
 class NeonLexer:
@@ -37,8 +38,8 @@ class NeonLexer:
                 elif re.match(permitted_identifier, c):
                     yield scanner.getIdentifier(c)
                 else:
-                    raise Exception("Neon is unable to recognize this character - " + str(c))
+                    raise UnrecognizedCharacterException(str(c))
             except IndexError:
                 s.fillStreamProtocol()
         if len(self.curlyBracketStack) != 0 or len(self.simpleBracketStack) != 0:
-            raise MismatchedBracketException()
+            raise MismatchedBracketException

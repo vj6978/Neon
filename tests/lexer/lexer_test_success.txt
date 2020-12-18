@@ -1,6 +1,6 @@
 x = 5 + 10.9;
 
-if x matches 15
+if x is 15
 {
     print x;
 }
