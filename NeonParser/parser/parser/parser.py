@@ -5,6 +5,7 @@ from NeonLexer.lexer.utility.filecharreader import fileCharReader
     Recursive Descent LL(1) Top Down parser
 """
 
+
 class NeonParser:
     def __init__(self):
         self.lexer = NeonLexer()
