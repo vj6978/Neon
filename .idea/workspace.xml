@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd4e7ff6-03e4-4394-a9ec-59434352435d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Neon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Neon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cd4e7ff6-03e4-4394-a9ec-59434352435d" name="Default Changelist" comment="Refactoring">
+      <change afterPath="$PROJECT_DIR$/NeonParser/grammar/grammar.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeonLexer/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeonLexer/.idea/Neon.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeonLexer/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeonLexer/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeonLexer/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeonLexer/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeonLexer/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeonParser/parser/parser/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeonParser/parser/parser/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeonLexer/lexer/lexer/lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeonLexer/lexer/lexer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeonLexer/lexer/stream/stream.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeonLexer/stream/stream.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeonLexer/lexer/tokenRegex/tokenRegex.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeonLexer/tokenRegex/tokenRegex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeonLexer/lexer/tokens/reserved_keywords.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeonLexer/tokens/reserved_keywords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeonLexer/lexer/tokens/tokens.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeonLexer/tokens/tokens.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeonLexer/lexer/utility/filecharreader.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeonLexer/utility/filecharreader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeonLexer/lexer/utility/scanner.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeonLexer/utility/scanner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeonParser/parser/parser/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeonParser/parser/parser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmdrunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmdrunner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neonrunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/neonrunner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/lexer/lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/lexer/lexer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +64,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NeonParser" />
+      <recent name="$PROJECT_DIR$/NeonLexer" />
       <recent name="C:\Users\Vimal James\Desktop\Code\Neon\tests\lexer" />
       <recent name="C:\Users\Vimal James\Desktop\Code\Neon\NeonParser\parser\parser" />
       <recent name="C:\Users\Vimal James\Desktop\Code\Neon" />
-      <recent name="C:\Users\Vimal James\Desktop\Code\Neon\lang\lexer" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Unittests in lexer.py">
@@ -202,6 +204,14 @@
       <option name="presentableId" value="Default" />
       <updated>1602190228822</updated>
     </task>
+    <task id="LOCAL-00001" summary="Refactoring">
+      <created>1622841868554</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622841868554</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -225,6 +235,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -250,12 +264,12 @@
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/NeonLexer/lexer/utility/filecharreader.py</url>
+          <url>file://$PROJECT_DIR$/NeonLexer/utility/filecharreader.py</url>
           <line>3</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/NeonLexer/lexer/utility/scanner.py</url>
+          <url>file://$PROJECT_DIR$/NeonLexer/utility/scanner.py</url>
           <line>26</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>

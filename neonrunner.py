@@ -1,4 +1,4 @@
-from NeonParser.parser.parser.parser import NeonParser
+from NeonParser.parser.parser import NeonParser
 
 
 class NeonRunner:

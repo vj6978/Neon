@@ -1,6 +1,6 @@
 import unittest
-from NeonLexer.lexer.lexer.lexer import NeonLexer
-from NeonLexer.lexer.utility.filecharreader import fileCharReader
+from NeonLexer.lexer.lexer import NeonLexer
+from NeonLexer.utility.filecharreader import fileCharReader
 
 class TestLexicalAnalysis(unittest.TestCase):
 
